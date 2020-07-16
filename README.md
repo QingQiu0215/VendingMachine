@@ -25,4 +25,4 @@ You must have a full set of unit tests for your DAO and Service Layer components
 You must use BigDecimal for all monetary calculations where applicable.
 You must use application specific exceptions and your application must fail gracefully under all conditions (i.e. no displaying a stack trace when an exception is thrown).  At a minimum you should have the following application specific exceptions thrown by your Service Layer:
 One that is thrown when the user tries to purchase an item but doesn’t deposit enough money (i.e. InsufficientFundsException)
-One that is thrown when the user tries to purchase an item that has zero inventory (i.e. NoItemInventoryException)
+One that is thrown when the user tries to purchase an item that has zero inventory (i.e. NoItemInventoryException) 
